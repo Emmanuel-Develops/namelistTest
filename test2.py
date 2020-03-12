@@ -1,5 +1,5 @@
 import random
-
+# EDS practical animation score generation program
 
 def randscore2():
     namelist = list([])
