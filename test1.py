@@ -2,13 +2,13 @@ import random
 
 
 def randscore2():
-    namelist = list()
+    namelist = list([])
     print("Type 'Quit' to stop")
     while True:
         name = input('Name: ')
         if name == 'Quit':
             break
-        namelist.append(name)
+        namelist.append([name])
     return namelist
 
 
